@@ -2,7 +2,7 @@ import { IoMdContacts } from "react-icons/io";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <div>
@@ -13,7 +13,7 @@ export default function Home() {
                 Home
               </Link>
             </li>
-           <li>
+          <li>
               <Link className="hover:text-yellow-400" href="/shop">
                 Shop
               </Link>
@@ -37,9 +37,7 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center h-134 bg-[#3B5D50] text-white p-4 ">
           <div>
-            <h1 className="text-6xl font-bold pl-20 text-white">
-              Modern Interior Design Studio
-            </h1>
+            <h1 className="text-6xl font-bold pl-20 text-white">About Us</h1>
             <p className="pt-10 pl-20 opacity-50">
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
               velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
@@ -52,6 +50,11 @@ export default function Home() {
           />
         </div>
       </div>
+
+
+
+
+
 
 
 
